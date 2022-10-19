@@ -4,10 +4,10 @@ import "../src/styles/globals.css";
 
 const BREAKPOINTS_INT = {
   xs: 375,
-  sm: 600,
-  md: 900,
-  lg: 1200,
-  xl: 1536,
+  sm: 768,
+  md: 879,
+  lg: 1024,
+  xl: 1200,
 };
 
 const customViewports = Object.fromEntries(
