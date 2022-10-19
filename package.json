@@ -2,7 +2,7 @@
   "name": "nextjs-starter",
   "version": "0.1.0",
   "private": true,
-  "license" : "MIT",
+  "license": "MIT",
   "homepage": "https://github.com/tridenda/nextjs-starter",
   "engines": {
     "node": ">=16.0.0",
@@ -13,7 +13,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "next": "12.3.1",
@@ -26,6 +27,7 @@
     "@types/react-dom": "18.0.6",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1",
+    "prettier": "^2.7.1",
     "typescript": "4.8.4"
   }
 }
