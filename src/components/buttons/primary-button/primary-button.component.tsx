@@ -1,11 +1,11 @@
-import { ContainerButton } from "./primary-button.styles";
+import * as Styles from "./primary-button.styles";
 
 export type PrimaryButtonProps = {
   buttonText: string;
 };
 
 const PrimaryButton: React.FC<PrimaryButtonProps> = ({ buttonText }) => {
-  return <ContainerButton>{buttonText}</ContainerButton>;
+  return <Styles.Container>{buttonText}</Styles.Container>;
 };
 
 export default PrimaryButton;
