@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
+import PrimaryButton from "../components/buttons/primary-button/primary-button.component";
+
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -51,6 +53,7 @@ const Home: NextPage = () => {
             </p>
           </a>
         </div>
+        <PrimaryButton buttonText="Read more" />
       </main>
 
       <footer className={styles.footer}>
