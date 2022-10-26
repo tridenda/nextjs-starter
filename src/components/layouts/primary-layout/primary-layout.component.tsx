@@ -12,7 +12,10 @@ const PrimaryLayout: React.FC<PrimaryLayoutProps> = ({ children }) => {
       <Head>
         <title>Primary Layout Example</title>
       </Head>
-      <Styles.Main>{children}</Styles.Main>
+      <>
+        <h1>halah</h1>
+        <Styles.Main>{children}</Styles.Main>
+      </>
     </>
   );
 };
